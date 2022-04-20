@@ -46,7 +46,6 @@ li {
 }
 
 ul ol {
-    list-style: decimal;
     font-size: 18px;
     text-align: center;
     margin-block-end: 10px;
@@ -64,9 +63,12 @@ table,
 td {
     font-size: 20px;
     border: 1px solid #333;
+    margin: auto;
+    text-align: center;
+
 }
 
-thead  {
+thead tr th {
     background-color: rgb(69, 69, 185);
     color: aqua;
 }
@@ -86,4 +88,8 @@ label, input {
 
 label {
     padding-right: 10px;
+}
+
+.submit {
+    background-color: red;
 }
