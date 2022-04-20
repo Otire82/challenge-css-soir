@@ -1,0 +1,89 @@
+* {
+    background-color: antiquewhite;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(69, 69, 185);
+    font-style: italic;
+    color: aqua;
+
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    border-radius: 11ch;
+}
+
+.title-ingredient {
+    font-size: 40px;
+    background-color: rgb(69, 69, 185);
+    color: aqua;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    margin-block-end: 10px;
+    background-color: bisque;
+}
+
+.preparation {
+    font-size: 40px;
+    background-color: rgb(69, 69, 185);
+    color: aqua;
+}
+
+ul ol {
+    list-style: decimal;
+    font-size: 18px;
+    text-align: center;
+    margin-block-end: 10px;
+    background-color: bisque;
+}
+
+.suivi {
+    display: flexbox;
+    justify-content: center;
+    width: 150px;
+    max-height: auto;
+    border-radius: 2ch;
+}
+table,
+td {
+    font-size: 20px;
+    border: 1px solid #333;
+}
+
+thead  {
+    background-color: rgb(69, 69, 185);
+    color: aqua;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
